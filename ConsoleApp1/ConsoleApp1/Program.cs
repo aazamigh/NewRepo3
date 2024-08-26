@@ -5,7 +5,9 @@ Console.WriteLine("Hello, World!");
 
 
 Firefox firefox = new Firefox();
-foreach (var item in firefox.Names())
+
+
+foreach (var item in firefox.Descriptions())
 {
     Console.WriteLine(item);
 }

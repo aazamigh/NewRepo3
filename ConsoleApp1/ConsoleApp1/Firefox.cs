@@ -8,14 +8,15 @@ namespace ConsoleApp1
 {
     public class Firefox
     {
-        public List<string> Names()
-        {
-            var list=new List<string>();
-            for (int i = 0; i < 5; i++)
-            {
-                list.Add("Firefox"+i.ToString());
-            }
+
+        public List<string> Descriptions()
+        { 
+            var list=new List<string>()
+            { 
+                "desc01","desc02","desc03"
+            };
             return list;
         }
+
     }
 }
